@@ -19,12 +19,15 @@
  *  d. how do you concatenate Strings? What operator do we use?
  */
 
-function reverseString(input) {
+function reverseString(input) { // return "olleh"
     // YOUR CODE GOES BELOW HERE //
     
-    
-    
-    
+    // split input string into array
+    var strToArr = input.split(""); // ['h', 'e', 'l', 'l', 'o']
+    // reverse array
+    var reversedArr = strToArr.reverse(); // [o, l, l, e, h]
+    // return joined reverse array
+    return reversedArr.join(""); // 'olleh'
     // YOUR CODE GOES ABOVE HERE //
 }
 
